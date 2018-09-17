@@ -8,8 +8,6 @@
 	<?php
 	$curl = curl_init();
 	
-	//$search_string = "anotherera2";
-	//$url = "https://www.amazon.com/s/field-keywords=$search_string";
 	$url = "http://fbcinema.com/";
 	curl_setopt($curl,CURLOPT_URL,$url); 
 	curl_setopt($curl,CURLOPT_SSL_VERIFYPEER,false); #Request HTTPS
