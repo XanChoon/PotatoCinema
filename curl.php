@@ -7,7 +7,6 @@
 <body>
 	<?php
 	$curl = curl_init();
-	
 	$url = "http://fbcinema.com/";
 	curl_setopt($curl,CURLOPT_URL,$url); 
 	curl_setopt($curl,CURLOPT_SSL_VERIFYPEER,false); #Request HTTPS
